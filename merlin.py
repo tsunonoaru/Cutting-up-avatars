@@ -2,7 +2,6 @@ from PIL import Image
 
 image = Image.open("new_image.jpg")
 red, green, blue = image.split()
-new_image = Image.merge("RGB", (red, green, blue))
 
 
 image = red
